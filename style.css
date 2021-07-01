@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 10px;
+}
+
+.container .box{
+    width: 100%;
+    display: flex;
+}
+.box div{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.country{
+    
+    width: 60%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:8px;
+}
+.left_box, .right_box{
+    margin: 10px;
+}
+select{
+    width: 60%;
+    height: 40px;
+    font-size:15px;
+    cursor: pointer;
+    outline: none;
+    background: whitesmoke;
+    color:black;
+    margin: 7px;
+    padding: 0 0.5em;
+    border-radius: 10px;
+    border: none;
+
+}
+
+#answer{
+    display: flex;
+    width: 80%;
+    height: 60px;
+    font-size: 1em;
+    justify-content: center;
+    font-weight: 900;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    background: #d6efdc;
+    outline: none;
+    padding: 0 1em;
+    text-align: center;
+    align-items: center;
+}
+::placeholder{
+    color: black;
+}
+.btn{
+    width: 98%;
+    height: 40px;
+    background: #364547;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
